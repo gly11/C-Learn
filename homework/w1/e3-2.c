@@ -1,3 +1,5 @@
+// 本代码在清览题库通过测试
+
 # include <stdio.h>
 
 double f(double a, double r, double n) {
