@@ -13,6 +13,6 @@ int main(int argc, char const *argv[])
     putchar(c2);
 
     putchar('\n');
-    printf("用printf输出语句:%c%c", c1, c2);
+    printf("用printf输出语句:%c%c\n", c1, c2);
     return 0;
 }

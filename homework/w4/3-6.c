@@ -2,9 +2,8 @@
 
 int main() {
   char str[6] = "China";
-  for ( int i=0; i<5; i++) {
-    str[i] += 4;
-  }
-  printf("%s", str);
+  char *p = str;
+  while ( *p+=4, *++p) ;
+  printf("%s\n", str);
   return 0;
 }
