@@ -18,7 +18,7 @@ void split(char a, int x, int i){
 void e3_6( ) {
   char str[6] = "China";
   char *p = str;
-  while ( *p+=4, *++p) ;
+  while ( (*p+++=4) - 4) ;
   printf("%s\n", str);
 }
 
