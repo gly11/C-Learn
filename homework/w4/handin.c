@@ -11,6 +11,10 @@ int max(int a, int b, int c) {
     return ( a>b && a > c) ? a : ( (b>c && b>a) ? b : c);
 }
 
+void split(char a, int x, int i){
+    i < x ? ( putchar(a), split(a, x, ++i) ) : putchar('\n');
+}
+
 void e3_6( ) {
   char str[6] = "China";
   char *p = str;
@@ -47,7 +51,9 @@ void e4_4( )
 int main(int argc, char const *argv[])
 {
     e3_6();
+    split('-', 80, 0);
     e3_8();
+    split('-', 80, 0);
     e4_4();
     return 0;
 }
