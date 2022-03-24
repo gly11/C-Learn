@@ -21,6 +21,5 @@ int main(int argc, char const *argv[])
     printf("反序数字为:");
     while (putchar(str[j]), j-->0);
 
-    
     return 0;
 }
